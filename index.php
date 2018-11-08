@@ -16,14 +16,19 @@ echo phpversion();
     <script src="./script.js"></script>
 </head>
 <body>
-    <script>
-    displayHint();
-    </script>
 
+<!-- Header -->
 <div class="container-fluid">
 <div>
 </div>
 </div>
+
+<!-- Topic 1 -->
+<!-- Topic 2 -->
+<!-- Topic 3 -->
+<!-- Topic 4 -->
+<!-- Footer -->
+
 
 </body>
 </html>
