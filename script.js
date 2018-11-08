@@ -5,29 +5,23 @@ const ans4 = "";
 
     
 $(document).ready(function() {
+    var input;
     /* Question 1 */
-    $('#').click(function() {
-        if (checkAnswer(1)) { scrollTo(); }
+    $('#test').click(function() {
+        input = $('#input1').val();
+        if (checkAnswer(1, input)) { scrollTo(); }
         else { displayHint(); }
     });
 
     /* Question 2 */
-    $('#').click(function() {
-        if (checkAnswer(2)) { scrollTo(); }
-        else { displayHint(); }
-    });
+
 
     /* Question 3 */
-    $('#').click(function() {
-        if (checkAnswer(3)) { scrollTo(); }
-        else { displayHint(); }
-    });
+
 
     /* Question 4 */
-    $('#').click(function() {
-        if (checkAnswer(4)) { scrollTo(); }
-        else { displayHint(); }
-    });
+
+
 });
 
 
