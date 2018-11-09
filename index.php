@@ -24,8 +24,8 @@ session_start(); // Keep only if necessary
 <!-- Side Navbar / Progress Indicator -->
 <div class="icon-bar">
 	<a href="#" onclick="scrollToID('topic1')"><img src='img/navbarIcon1.jpg'></a>
-	<a href="#" onclick="scrollToID('topic2')"></a> 
-	<a href="#" onclick="scrollToID('topic3')"></a> 
+	<a href="#" onclick="scrollToID('topic2')"></a>
+	<a href="#" onclick="scrollToID('topic3')"></a>
 	<a href="#" onclick="scrollToID('topic4')"></a>
 </div>
 
@@ -69,16 +69,3 @@ session_start(); // Keep only if necessary
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
