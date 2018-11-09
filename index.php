@@ -21,6 +21,8 @@ session_start(); // Keep only if necessary
 </head>
 <body>
 
+<div class="parallax"></div>
+
 <!-- Side Navbar / Progress Indicator -->
 <div class="icon-bar">
 	<a href="#" onclick="scrollToID('topic1')"><img src='img/navbarIcon1.jpg'></a>
