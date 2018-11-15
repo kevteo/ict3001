@@ -44,9 +44,10 @@ body, html{
 }
   
 .section-light{
-    background-color:#f4f4f4;
+    /* background-color:#f4f4f4; */
     color: black;
 }
+
   
 .section-dark{
     background-color:#282e34;
@@ -114,7 +115,7 @@ body, html{
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
     position: fixed;
-    top: 50%;
+    top: 25%;
     right: 0;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -170,6 +171,15 @@ body, html{
     color: black;
 }
 
-section {
+.answer {
+    margin: auto;
+    margin-top:15px;
+}
 
+.question {
+    width: 95vh;
+    height: auto;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: red;
 }

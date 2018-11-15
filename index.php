@@ -49,13 +49,28 @@ session_start(); // Keep only if necessary
 <section class="section section-light" id='topic1'>
 	<h2>Topic 1</h2>
 	<p>Tutorial</p><br/><br/><br/>
-	<h3>Question</h3>
-	<div class="form-group">
-		<input type='text' class="form-control" id='input1-1' placeholder="Enter your answer here!"><br/>
-		<input type='text' class="form-control" id='input1-1' placeholder="Enter your answer here!"><br/>
-		<input type='text' class="form-control" id='input1-3' placeholder="Enter your answer here!"><br/>
-		<button id='button1'>Submit Answer!</button>
-	</div><br/><br/><br/>
+	<div class='question'>
+		Question
+	</div>
+	<div class="input-group input-group-lg col-sm-3 answer">
+  		<div class="input-group-prepend">
+    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
+		</div>
+  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input1-1">
+	</div>
+	<div class="input-group input-group-lg col-sm-3 answer">
+  		<div class="input-group-prepend">
+    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
+		</div>
+  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input1-2">
+	</div>
+	<div class="input-group input-group-lg col-sm-3 answer">
+  		<div class="input-group-prepend">
+    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
+		</div>
+  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input1-3">
+	</div><br/>
+	<button id='button2'>Submit Answer!</button><br/><br/><br/>
 	<video width="1200" height="760" controls></video>
 	<video width="1200" height="760" controls></video>
 	<video width="1200" height="760" controls></video>
@@ -69,10 +84,13 @@ session_start(); // Keep only if necessary
 	<h2>Topic 2</h2>
 	<p>Tutorial</p><br/><br/><br/>
 	<h3>Question</h3>
-	<div class="form-group">
-		<input type='text' class="form-control" id='input2' placeholder="Enter your answer here!"><br/>
-		<button id='button2'>Submit Answer!</button>
-	</div><br/><br/><br/>
+	<div class="input-group input-group-lg col-sm-3 answer">
+  		<div class="input-group-prepend">
+    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
+		</div>
+  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input2">
+	</div><br/>
+	<button id='button2'>Submit Answer!</button><br/><br/><br/>
 	<video width="1200" height="760" controls></video>
 </section>
 <div class="pimg1small"></div>
@@ -83,10 +101,13 @@ session_start(); // Keep only if necessary
 	<h2>Topic 3</h2>
 	<p>Tutorial</p><br/><br/><br/>
 	<h3>Question</h3>
-	<div class="form-group">
-		<input type='text' class="form-control" id='input3' placeholder="Enter your answer here!"><br/>
-		<button id='button3'>Submit Answer!</button>
-	</div><br/><br/><br/>
+	<div class="input-group input-group-lg col-sm-3 answer">
+  		<div class="input-group-prepend">
+    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
+		</div>
+  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input3">
+	</div><br/>
+	<button id='button2'>Submit Answer!</button><br/><br/><br/>
 	<video width="1200" height="760" controls></video>
 </section>
 <div class="pimg1small"></div>
@@ -94,12 +115,15 @@ session_start(); // Keep only if necessary
 
 <!-- Topic 4 -->
 <section class="section section-light" id='topic4'>
-	<h2>Topic 3</h2>
+	<h2>Topic 4</h2>
 	<p>Tutorial</p>
-	<div class="form-group">
-		<input type='text' class="form-control" id='input4' placeholder="Enter your answer here!"><br/>
-		<button id='button4'>Submit Answer!</button>
-	</div><br/><br/><br/>
+	<div class="input-group input-group-lg col-sm-3 answer">
+  		<div class="input-group-prepend">
+    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
+		</div>
+  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input4">
+	</div><br/>
+	<button id='button2'>Submit Answer!</button><br/><br/><br/>
 	<video width="1200" height="760" controls></video>
 </section>
 <div class="pimg1small"></div>
@@ -120,10 +144,10 @@ session_start(); // Keep only if necessary
 
 <!-- Side Navbar / Progress Indicator -->
 <div class="icon-bar">
-	<a href="#" onclick="scrollToID('topic1')"><img src='img/navbarIcon1.jpg'></a>
-	<a href="#" onclick="scrollToID('topic2')"></a>
-	<a href="#" onclick="scrollToID('topic3')"></a>
-	<a href="#" onclick="scrollToID('topic4')"></a>
+	<a href="#" onclick="scrollToID('topic1')"><img src='img/waffle-icon-dribbble.png'></a>
+	<a href="#" onclick="scrollToID('topic2')"><img src='img/waffle-icon-dribbble.png'><</a>
+	<a href="#" onclick="scrollToID('topic3')"><img src='img/waffle-icon-dribbble.png'><</a>
+	<a href="#" onclick="scrollToID('topic4')"><img src='img/waffle-icon-dribbble.png'><</a>
 </div>
 <div id='progressBarOverlay'></div>
 
