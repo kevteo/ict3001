@@ -28,19 +28,21 @@ session_start(); // Keep only if necessary
 		<span><p id='header' class="border">Basic Statistics</p><br/><br/><p class="border">Making Decisions From Data In Life</p></span>
 	</div>
 </div>
-
+<div class="pimg1small"></div>
 
 <!-- Intro -->
 <section class="section section-light">
-	<h2>CLICK BAITTTTTTTTTTTTTTTTTTTTTTT</h2><br/><br/>
+	<h2>CLICK BAITTTTTTTTTT</h2><br/><br/>
 	<h2>Lesson Objectives</h2>
-	<p>Students should...</p>
-	<ul>
-		<li>Understand the relation between population parameter and sample statistics</li>
-		<li>Know two models for sampling distribution (Normal distribution, t-distribution)</li>
-		<li>Apply the methods for making inferences based on the sample data</li>
-	</ul><br/>
-	<video width="1200" height="760" controls></video>
+	<div id='moduleOverview'>
+		<p>Students should...</p>
+		<ul>
+			<li>Understand the relation between population parameter and sample statistics</li>
+			<li>Know two models for sampling distribution (Normal distribution, t-distribution)</li>
+			<li>Apply the methods for making inferences based on the sample data</li>
+		</ul>
+	</div><br/>
+	<video width="90%" height="760" controls></video>
 </section>
 <div class="pimg1small"></div>
 
@@ -71,10 +73,10 @@ session_start(); // Keep only if necessary
   		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input1-3">
 	</div><br/>
 	<button id='button2'>Submit Answer!</button><br/><br/><br/>
-	<video width="1200" height="760" controls></video>
-	<video width="1200" height="760" controls></video>
-	<video width="1200" height="760" controls></video>
-	<video width="1200" height="760" controls></video>
+	<video width="90%" height="760" controls></video>
+	<video width="90%" height="760" controls></video>
+	<video width="90%" height="760" controls></video>
+	<video width="90%" height="760" controls></video>
 </section>
 <div class="pimg1small"></div>
 
@@ -91,7 +93,7 @@ session_start(); // Keep only if necessary
   		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input2">
 	</div><br/>
 	<button id='button2'>Submit Answer!</button><br/><br/><br/>
-	<video width="1200" height="760" controls></video>
+	<video width="90%" height="760" controls></video>
 </section>
 <div class="pimg1small"></div>
 
@@ -108,7 +110,7 @@ session_start(); // Keep only if necessary
   		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input3">
 	</div><br/>
 	<button id='button2'>Submit Answer!</button><br/><br/><br/>
-	<video width="1200" height="760" controls></video>
+	<video width="90%" height="760" controls></video>
 </section>
 <div class="pimg1small"></div>
 
@@ -124,7 +126,7 @@ session_start(); // Keep only if necessary
   		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input4">
 	</div><br/>
 	<button id='button2'>Submit Answer!</button><br/><br/><br/>
-	<video width="1200" height="760" controls></video>
+	<video width="90%" height="760" controls></video>
 </section>
 <div class="pimg1small"></div>
 
@@ -138,7 +140,25 @@ session_start(); // Keep only if necessary
 
 
 
-
+<!-- Modal (If answer is wrong) -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      	<!-- Modal content-->
+      	<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Modal Header</h4>
+			</div>
+			<div class="modal-body" id='modal-body'>
+				<p>Some text in the modal.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+      
+    </div>
+</div>
 
 
 

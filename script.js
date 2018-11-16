@@ -76,7 +76,8 @@ function showHint(target) {
 }
 
 function alertWrongAnswer() {
-
+    $("#modal-body").append("HINT");
+    $("#myModal").modal();
 }
 
 

@@ -6,11 +6,11 @@ body, html{
     font-weight:400;
     line-height:1.8em;
     color: black;
-  }
+}
   
 .pimg1, .pimg2, .pimg3, .pimg1small{
     position:relative;
-    opacity:0.73;
+    opacity:0.9;
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -48,7 +48,6 @@ body, html{
     color: black;
 }
 
-  
 .section-dark{
     background-color:#282e34;
     color:#ddd;
@@ -103,8 +102,8 @@ body, html{
 
 
 #progressBarOverlay {
-    background-color: #b9ceeb;
-    opacity: 0.6;
+    background-color: white;
+    opacity: 1;
     position: fixed;
     width: 100px;
     height:100%;
@@ -115,7 +114,7 @@ body, html{
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
     position: fixed;
-    top: 25%;
+    top: 35%;
     right: 0;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -162,9 +161,10 @@ body, html{
 
 
 #header {
-    font-size: 5.5em;
+    font-size: 4em;
     color: black;
     font-family: Boulevard;
+    font-weight: bold;
 }
 
 .subtitle {
@@ -182,4 +182,10 @@ body, html{
     margin: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: red;
+}
+
+#moduleOverview {
+    margin: auto;
+    width: 85%;
+    background-color: green;
 }
