@@ -85,22 +85,6 @@ body, html{
     src: url('font/boulevard_2/Boulevard.otf')
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #progressBarOverlay {
     background-color: #b9ceeb;
     opacity: 0.6;
@@ -147,18 +131,6 @@ body, html{
     width: 80px;
     border-radius: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 #header {
     font-size: 5.5em;
