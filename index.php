@@ -21,52 +21,135 @@ session_start(); // Keep only if necessary
 </head>
 <body>
 
-<div class="parallax"></div>
+
+<!-- Title -->
+<div class="pimg1">
+	<div class="ptext">
+		<span><p id='header' class="border">Basic Statistics</p><br/><br/><p class="border">Making Decisions From Data In Life</p></span>
+	</div>
+</div>
+
+
+<!-- Intro -->
+<section class="section section-light">
+	<h2>CLICK BAITTTTTTTTTTTTTTTTTTTTTTT</h2><br/><br/>
+	<h2>Lesson Objectives</h2>
+	<p>Students should...</p>
+	<ul>
+		<li>Understand the relation between population parameter and sample statistics</li>
+		<li>Know two models for sampling distribution (Normal distribution, t-distribution)</li>
+		<li>Apply the methods for making inferences based on the sample data</li>
+	</ul><br/>
+	<video width="1200" height="760" controls></video>
+</section>
+<div class="pimg1small"></div>
+
+
+<!-- Topic 1 -->
+<section class="section section-light" id='topic1'>
+	<h2>Topic 1</h2>
+	<p>Tutorial</p><br/><br/><br/>
+	<div class='question'>
+		Question
+	</div>
+	<div class="input-group input-group-lg col-sm-3 answer">
+  		<div class="input-group-prepend">
+    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
+		</div>
+  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input1-1">
+	</div>
+	<div class="input-group input-group-lg col-sm-3 answer">
+  		<div class="input-group-prepend">
+    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
+		</div>
+  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input1-2">
+	</div>
+	<div class="input-group input-group-lg col-sm-3 answer">
+  		<div class="input-group-prepend">
+    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
+		</div>
+  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input1-3">
+	</div><br/>
+	<button id='button2'>Submit Answer!</button><br/><br/><br/>
+	<video width="1200" height="760" controls></video>
+	<video width="1200" height="760" controls></video>
+	<video width="1200" height="760" controls></video>
+	<video width="1200" height="760" controls></video>
+</section>
+<div class="pimg1small"></div>
+
+
+<!-- Topic 2 -->
+<section class="section section-light" id='topic2'>
+	<h2>Topic 2</h2>
+	<p>Tutorial</p><br/><br/><br/>
+	<h3>Question</h3>
+	<div class="input-group input-group-lg col-sm-3 answer">
+  		<div class="input-group-prepend">
+    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
+		</div>
+  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input2">
+	</div><br/>
+	<button id='button2'>Submit Answer!</button><br/><br/><br/>
+	<video width="1200" height="760" controls></video>
+</section>
+<div class="pimg1small"></div>
+
+
+<!-- Topic 3 -->
+<section class="section section-light" id='topic3'>
+	<h2>Topic 3</h2>
+	<p>Tutorial</p><br/><br/><br/>
+	<h3>Question</h3>
+	<div class="input-group input-group-lg col-sm-3 answer">
+  		<div class="input-group-prepend">
+    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
+		</div>
+  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input3">
+	</div><br/>
+	<button id='button2'>Submit Answer!</button><br/><br/><br/>
+	<video width="1200" height="760" controls></video>
+</section>
+<div class="pimg1small"></div>
+
+
+<!-- Topic 4 -->
+<section class="section section-light" id='topic4'>
+	<h2>Topic 4</h2>
+	<p>Tutorial</p>
+	<div class="input-group input-group-lg col-sm-3 answer">
+  		<div class="input-group-prepend">
+    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
+		</div>
+  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input4">
+	</div><br/>
+	<button id='button2'>Submit Answer!</button><br/><br/><br/>
+	<video width="1200" height="760" controls></video>
+</section>
+<div class="pimg1small"></div>
+
+
+<!-- Closing -->
+<div class="pimg1" id='closing'>
+	<div class="ptext">
+	<span class="border">VISIT DISCORD CHANNEL ...</span>
+</div>
+
+
+
+
+
+
+
 
 <!-- Side Navbar / Progress Indicator -->
 <div class="icon-bar">
-	<a href="#" onclick="scrollToID('topic1')"><img src='img/navbarIcon1.jpg'></a>
-	<a href="#" onclick="scrollToID('topic2')"></a>
-	<a href="#" onclick="scrollToID('topic3')"></a>
-	<a href="#" onclick="scrollToID('topic4')"></a>
+	<a href="#" onclick="scrollToID('topic1')"><img src='img/waffle-icon-dribbble.png'></a>
+	<a href="#" onclick="scrollToID('topic2')"><img src='img/waffle-icon-dribbble.png'><</a>
+	<a href="#" onclick="scrollToID('topic3')"><img src='img/waffle-icon-dribbble.png'><</a>
+	<a href="#" onclick="scrollToID('topic4')"><img src='img/waffle-icon-dribbble.png'><</a>
 </div>
-
-<!-- Header -->
-<div class='container-fluid'>
-	<h1>Basic Statistic</h1>
-	<h2>Making Decisions From Data In Life</h2>
-	<p>Module Overview</p>
-</div>
-
-<!-- Topic 1 -->
-<div class='container-fluid'>
-	<h1>Basic Statistic</h1>
-	<p>Module Overview</p>
-</div>
-
-<!-- Topic 2 -->
-
-<!-- Topic 3 -->
-
-<!-- Topic 4 -->
-
-<!-- Footer -->
-
-
-<?php
-// for ($i=0; $i < 50; $i++) {
-// 	echo "<p>111111</p>";
-// 	echo "<hr>";
-// }
-
-// echo "<p id='hello'>THIS</p>";
-
-// for ($i=0; $i < 50; $i++) {
-// 	echo "<p>abcdefegsdasd</p>";
-// 	echo "<hr>";
-// }
-?>
-
+<div id='progressBarOverlay'></div>
 
 
 </body>

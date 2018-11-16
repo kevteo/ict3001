@@ -3,10 +3,10 @@ const ans2 = "2";
 const ans3 = "3";
 const ans4 = "4";
 
-const hint1 = [];
-const hint2 = [];
-const hint3 = [];
-const hint4 = [];
+const hint1 = "";
+const hint2 = "";
+const hint3 = "";
+const hint4 = "";
 
 
 function init() {
@@ -15,31 +15,30 @@ function init() {
         /* Question 1 */
         $('#button1').click(function() {
             input = $('#input1').val();
-            if (checkAnswer(1, input)) { scrollToID('topic1'); }
+            if (checkAnswer(1, input)) { scrollToID('topic2'); }
             else { showHint(hint1); }
         });
     
         /* Question 2 */
         $('#button2').click(function() {
             input = $('#input2').val();
-            if (checkAnswer(2, input)) { scrollToID('topic2'); }
+            if (checkAnswer(2, input)) { scrollToID('topic3'); }
             else { showHint(hint2); }
         });
     
         /* Question 3 */
         $('#button3').click(function() {
             input = $('#input3').val();
-            if (checkAnswer(3, input)) { scrollToID('topic3'); }
+            if (checkAnswer(3, input)) { scrollToID('topic4'); }
             else { showHint(hint3); }
         });
     
         /* Question 4 */
         $('#button4').click(function() {
             input = $('#input4').val();
-            if (checkAnswer(4, input)) { scrollToID('topic4'); }
+            if (checkAnswer(4, input)) { scrollToID('closing'); }
             else { showHint(hint4); }
         });
-    
     });
 }
 
@@ -66,7 +65,7 @@ function scrollToID(target) {
     $(document).ready(function() {
         $('html, body').animate({
             scrollTop: $("#"+target).offset().top
-        }, 800);
+        }, 1300);
     });
 }
 
@@ -79,3 +78,6 @@ function showHint(target) {
 function alertWrongAnswer() {
 
 }
+
+
+

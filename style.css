@@ -1,62 +1,127 @@
-body {
-    width:100%;
+body, html{
     height:100%;
-    overflow-x: hidden;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax {
-    /* The image used */
-    /* background-image: url("img/jodie-morgan-464702-unsplash.jpg"); */
-    /* background-image: url("img/simon-daoudi-650630-unsplash.jpg"); */
-    background-image: url("img/taylor-kiser-373466-unsplash.jpg");
-
-    /* Full height */
-    height: 1000px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color: black;
+  }
+  
+.pimg1, .pimg2, .pimg3, .pimg1small{
+    position:relative;
+    opacity:0.73;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
+.pimg1{
+    background-image:url('img/taylor-kiser-373466-unsplash.jpg');
+    min-height:100%;
+}
 
+.pimg1small{
+    background-image:url('img/taylor-kiser-373466-unsplash.jpg');
+    min-height:35%;
+}
+  
+.pimg2{
+    background-image:url('img/image2.jpg');
+    min-height:400px;
+}
+  
+.pimg3{
+    background-image:url('img/image3.jpg');
+    min-height:400px;
+}
+  
+.section{
+    text-align:center;
+    padding:50px 80px;
+    min-height:1000px;
+}
+  
+.section-light{
+    /* background-color:#f4f4f4; */
+    color: black;
+}
 
-.jumbotron {
-    background-image: url('img/jodie-morgan-464702-unsplash.jpg');
+  
+.section-dark{
+    background-color:#282e34;
+    color:#ddd;
+}
+  
+.ptext{
+    position:absolute;
+    top:40%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+  
+.ptext .border{
+    background-color:white;
+    color:#666;
+    padding:63px;
+}
+  
+.ptext .border.trans{
+    background-color:transparent;
+}
+  
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+}
+
+@font-face {
+    font-family: Boulevard;
+    src: url('font/boulevard_2/Boulevard.otf')
 }
 
 
 
 
 
-.imgbox {
-    display: grid;
-    height: 100%;
-    width: 100%;
+
+
+
+
+
+
+
+
+
+
+
+
+#progressBarOverlay {
+    background-color: #b9ceeb;
+    opacity: 0.6;
+    position: fixed;
+    width: 100px;
+    height:100%;
+    right: 0;
+    top: 0;
 }
-
-.center-fit {
-    max-width: 100%;
-    height:auto;
-    max-height: 100%;
-    margin: auto;
-}
-
-
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
     position: fixed;
-    top: 50%;
+    top: 25%;
     right: 0;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin-right:10px;
+    z-index: 1;
 }
 
 /* Style the icon bar links */
@@ -82,4 +147,39 @@ body {
     height: 80px;
     width: 80px;
     border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header {
+    font-size: 5.5em;
+    color: black;
+    font-family: Boulevard;
+}
+
+.subtitle {
+    color: black;
+}
+
+.answer {
+    margin: auto;
+    margin-top:15px;
+}
+
+.question {
+    width: 95vh;
+    height: auto;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: red;
 }
