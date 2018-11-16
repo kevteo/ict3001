@@ -6,8 +6,13 @@ body, html{
     font-weight:400;
     line-height:1.8em;
     color: black;
+<<<<<<< HEAD
 }
   
+=======
+  }
+
+>>>>>>> 3d1034244e5ce169c8ded9caee847e317cce7bcf
 .pimg1, .pimg2, .pimg3, .pimg1small{
     position:relative;
     opacity:0.9;
@@ -26,33 +31,37 @@ body, html{
     background-image:url('img/taylor-kiser-373466-unsplash.jpg');
     min-height:35%;
 }
-  
+
 .pimg2{
     background-image:url('img/image2.jpg');
     min-height:400px;
 }
-  
+
 .pimg3{
     background-image:url('img/image3.jpg');
     min-height:400px;
 }
-  
+
 .section{
     text-align:center;
     padding:50px 80px;
     min-height:1000px;
 }
-  
+
 .section-light{
     /* background-color:#f4f4f4; */
     color: black;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3d1034244e5ce169c8ded9caee847e317cce7bcf
 .section-dark{
     background-color:#282e34;
     color:#ddd;
 }
-  
+
 .ptext{
     position:absolute;
     top:40%;
@@ -63,17 +72,16 @@ body, html{
     letter-spacing:8px;
     text-transform:uppercase;
 }
-  
+
 .ptext .border{
-    background-color:white;
-    color:#666;
+    background: rgba(255,255,255,0.5);
     padding:63px;
 }
-  
+
 .ptext .border.trans{
     background-color:transparent;
 }
-  
+
 @media(max-width:568px){
     .pimg1, .pimg2, .pimg3{
       background-attachment:scroll;
