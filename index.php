@@ -1,156 +1,374 @@
-<?php
-session_start(); // Keep only if necessary
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
-?>
-<!DOCTYPE html>
-<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Basic Statistics</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	<link href="style.css" rel="stylesheet">
-    <script src="script.js"></script>
-	<script>
-		init();
-	</script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
-<body>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<span class="icon fa-diamond"></span>
+			</div>
+			<div class="content">
+				<div class="inner">
+					<h1 style='font-size:85px;'>Basic Statistics</h1>
+					<p>Clickbait<br />Module Overview</p>
+					<span class="image main"><video src='' width='100%' height='380px' controls></video></span><br/>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#intro">Population Distribution</a></li>
+					<li><a href="#work">T-Distribution</a></li>
+					<li><a href="#about">Central Limit Theorem</a></li>
+					<li><a href="#contact">Inferential Statistics</a></li>
+					<!--<li><a href="#elements">Elements</a></li>-->
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<article id="intro">
+				<h2 class="major">Population Distribution</h2>
+				<div class='tutorial'>Tutorial</div>
+				<div class='question'>
+					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
+					<input type="text" class="input" id="input1-1">
+					<input type="text" class="input" id="input1-2">
+					<input type="text" class="input" id="input1-3">
+					<br/>
+					<button id='button1'>Submit Answer!</button>
+				</div>
+				
+				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+			</article>
+
+			<!-- Work -->
+			<article id="work">
+				<h2 class="major">T-Distribution</h2>
+				<div class='tutorial'>Tutorial</div>
+				<div class='question'>
+					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
+					<input type="text" class="input" id="input2">
+					<br/>
+					<button id='button2'>Submit Answer!</button>
+				</div>
+				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+			</article>
+
+			<!-- About -->
+			<article id="about">
+			<h2 class="major">Central Limit Theorem</h2>
+				<div class='tutorial'>Tutorial</div>
+				<div class='question'>
+					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
+					<input type="text" class="input" id="input2">
+					<br/>
+					<button id='button1'>Submit Answer!</button>
+				</div>
+				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+			</article>
+
+			<!-- Contact -->
+			<article id="contact">
+			<h2 class="major">Inferential Statistics</h2>
+				<div class='tutorial'>Tutorial</div>
+				<div class='question'>
+					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
+					<input type="text" class="input" id="input2">
+					<br/>
+					<button id='button1'>Submit Answer!</button>
+				</div>
+				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+			</article>
+
+			<!-- Elements -->
+			<article id="elements">
+				<h2 class="major">Elements</h2>
+
+				<section>
+					<h3 class="major">Text</h3>
+					<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+						This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+						This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+					<hr />
+					<h2>Heading Level 2</h2>
+					<h3>Heading Level 3</h3>
+					<h4>Heading Level 4</h4>
+					<h5>Heading Level 5</h5>
+					<h6>Heading Level 6</h6>
+					<hr />
+					<h4>Blockquote</h4>
+					<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod.
+						Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing
+						accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu
+						felis.</blockquote>
+					<h4>Preformatted</h4>
+					<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+				</section>
+
+				<section>
+					<h3 class="major">Lists</h3>
+
+					<h4>Unordered</h4>
+					<ul>
+						<li>Dolor pulvinar etiam.</li>
+						<li>Sagittis adipiscing.</li>
+						<li>Felis enim feugiat.</li>
+					</ul>
+
+					<h4>Alternate</h4>
+					<ul class="alt">
+						<li>Dolor pulvinar etiam.</li>
+						<li>Sagittis adipiscing.</li>
+						<li>Felis enim feugiat.</li>
+					</ul>
+
+					<h4>Ordered</h4>
+					<ol>
+						<li>Dolor pulvinar etiam.</li>
+						<li>Etiam vel felis viverra.</li>
+						<li>Felis enim feugiat.</li>
+						<li>Dolor pulvinar etiam.</li>
+						<li>Etiam vel felis lorem.</li>
+						<li>Felis enim et feugiat.</li>
+					</ol>
+					<h4>Icons</h4>
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+					</ul>
+
+					<h4>Actions</h4>
+					<ul class="actions">
+						<li><a href="#" class="button primary">Default</a></li>
+						<li><a href="#" class="button">Default</a></li>
+					</ul>
+					<ul class="actions stacked">
+						<li><a href="#" class="button primary">Default</a></li>
+						<li><a href="#" class="button">Default</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h3 class="major">Table</h3>
+					<h4>Default</h4>
+					<div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Item One</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Two</td>
+									<td>Vis ac commodo adipiscing arcu aliquet.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Three</td>
+									<td> Morbi faucibus arcu accumsan lorem.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Four</td>
+									<td>Vitae integer tempus condimentum.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Five</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+
+					<h4>Alternate</h4>
+					<div class="table-wrapper">
+						<table class="alt">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Item One</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Two</td>
+									<td>Vis ac commodo adipiscing arcu aliquet.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Three</td>
+									<td> Morbi faucibus arcu accumsan lorem.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Four</td>
+									<td>Vitae integer tempus condimentum.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Five</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</section>
+
+				<section>
+					<h3 class="major">Buttons</h3>
+					<ul class="actions">
+						<li><a href="#" class="button primary">Primary</a></li>
+						<li><a href="#" class="button">Default</a></li>
+					</ul>
+					<ul class="actions">
+						<li><a href="#" class="button">Default</a></li>
+						<li><a href="#" class="button small">Small</a></li>
+					</ul>
+					<ul class="actions">
+						<li><a href="#" class="button primary icon fa-download">Icon</a></li>
+						<li><a href="#" class="button icon fa-download">Icon</a></li>
+					</ul>
+					<ul class="actions">
+						<li><span class="button primary disabled">Disabled</span></li>
+						<li><span class="button disabled">Disabled</span></li>
+					</ul>
+				</section>
+
+				<section>
+					<h3 class="major">Form</h3>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<label for="demo-name">Name</label>
+								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+							</div>
+							<div class="field half">
+								<label for="demo-email">Email</label>
+								<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+							</div>
+							<div class="field">
+								<label for="demo-category">Category</label>
+								<select name="demo-category" id="demo-category">
+									<option value="">-</option>
+									<option value="1">Manufacturing</option>
+									<option value="1">Shipping</option>
+									<option value="1">Administration</option>
+									<option value="1">Human Resources</option>
+								</select>
+							</div>
+							<div class="field half">
+								<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+								<label for="demo-priority-low">Low</label>
+							</div>
+							<div class="field half">
+								<input type="radio" id="demo-priority-high" name="demo-priority">
+								<label for="demo-priority-high">High</label>
+							</div>
+							<div class="field half">
+								<input type="checkbox" id="demo-copy" name="demo-copy">
+								<label for="demo-copy">Email me a copy</label>
+							</div>
+							<div class="field half">
+								<input type="checkbox" id="demo-human" name="demo-human" checked>
+								<label for="demo-human">Not a robot</label>
+							</div>
+							<div class="field">
+								<label for="demo-message">Message</label>
+								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="primary" /></li>
+							<li><input type="reset" value="Reset" /></li>
+						</ul>
+					</form>
+				</section>
+
+			</article>
+
+		</div>
 
 
-<!-- Title -->
-<div class="pimg1">
-	<div class="ptext">
-		<span><p id='header' class="border">Basic Statistics</p><br/><br/><p class="border">Making Decisions From Data In Life</p></span>
+		<!-- Footer
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+				-->
 	</div>
-</div>
 
+	<!-- BG -->
+	<div id="bg"></div>
 
-<!-- Intro -->
-<section class="section section-light">
-	<h2>CLICK BAITTTTTTTTTTTTTTTTTTTTTTT</h2><br/><br/>
-	<h2>Lesson Objectives</h2>
-	<p>Students should...</p>
-	<ul>
-		<li>Understand the relation between population parameter and sample statistics</li>
-		<li>Know two models for sampling distribution (Normal distribution, t-distribution)</li>
-		<li>Apply the methods for making inferences based on the sample data</li>
-	</ul><br/>
-	<video width="1200" height="760" controls></video>
-</section>
-<div class="pimg1small"></div>
-
-
-<!-- Topic 1 -->
-<section class="section section-light" id='topic1'>
-	<h2>Topic 1</h2>
-	<p>Tutorial</p><br/><br/><br/>
-	<div class='question'>
-		Question
-	</div>
-	<div class="input-group input-group-lg col-sm-3 answer">
-  		<div class="input-group-prepend">
-    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
-		</div>
-  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input1-1">
-	</div>
-	<div class="input-group input-group-lg col-sm-3 answer">
-  		<div class="input-group-prepend">
-    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
-		</div>
-  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input1-2">
-	</div>
-	<div class="input-group input-group-lg col-sm-3 answer">
-  		<div class="input-group-prepend">
-    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
-		</div>
-  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input1-3">
-	</div><br/>
-	<button id='button2'>Submit Answer!</button><br/><br/><br/>
-	<video width="1200" height="760" controls></video>
-	<video width="1200" height="760" controls></video>
-	<video width="1200" height="760" controls></video>
-	<video width="1200" height="760" controls></video>
-</section>
-<div class="pimg1small"></div>
-
-
-<!-- Topic 2 -->
-<section class="section section-light" id='topic2'>
-	<h2>Topic 2</h2>
-	<p>Tutorial</p><br/><br/><br/>
-	<h3>Question</h3>
-	<div class="input-group input-group-lg col-sm-3 answer">
-  		<div class="input-group-prepend">
-    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
-		</div>
-  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input2">
-	</div><br/>
-	<button id='button2'>Submit Answer!</button><br/><br/><br/>
-	<video width="1200" height="760" controls></video>
-</section>
-<div class="pimg1small"></div>
-
-
-<!-- Topic 3 -->
-<section class="section section-light" id='topic3'>
-	<h2>Topic 3</h2>
-	<p>Tutorial</p><br/><br/><br/>
-	<h3>Question</h3>
-	<div class="input-group input-group-lg col-sm-3 answer">
-  		<div class="input-group-prepend">
-    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
-		</div>
-  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input3">
-	</div><br/>
-	<button id='button2'>Submit Answer!</button><br/><br/><br/>
-	<video width="1200" height="760" controls></video>
-</section>
-<div class="pimg1small"></div>
-
-
-<!-- Topic 4 -->
-<section class="section section-light" id='topic4'>
-	<h2>Topic 4</h2>
-	<p>Tutorial</p>
-	<div class="input-group input-group-lg col-sm-3 answer">
-  		<div class="input-group-prepend">
-    		<span class="input-group-text" id="inputGroup-sizing-lg">Answer</span>
-		</div>
-  		<input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input4">
-	</div><br/>
-	<button id='button2'>Submit Answer!</button><br/><br/><br/>
-	<video width="1200" height="760" controls></video>
-</section>
-<div class="pimg1small"></div>
-
-
-<!-- Closing -->
-<div class="pimg1" id='closing'>
-	<div class="ptext">
-	<span class="border">VISIT DISCORD CHANNEL ...</span>
-</div>
-
-
-
-
-
-
-
-
-<!-- Side Navbar / Progress Indicator -->
-<div class="icon-bar">
-	<a href="#" onclick="scrollToID('topic1')"><img src='img/waffle-icon-dribbble.png'></a>
-	<a href="#" onclick="scrollToID('topic2')"><img src='img/waffle-icon-dribbble.png'><</a>
-	<a href="#" onclick="scrollToID('topic3')"><img src='img/waffle-icon-dribbble.png'><</a>
-	<a href="#" onclick="scrollToID('topic4')"><img src='img/waffle-icon-dribbble.png'><</a>
-</div>
-<div id='progressBarOverlay'></div>
-
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
