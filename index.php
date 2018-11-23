@@ -28,7 +28,7 @@
 			<div class="content">
 				<div class="inner">
 					<h1 style='font-size:85px;'>Basic Statistics</h1>
-					<p>Clickbait<br /><a href="#moduleOverview">Module Overview</a></p>
+							<p>Everything is data and only with statistics,we can interpret data accurately.</p><a href=#moduleOverview class="button">Module Overview</a>
 					<span class="image main"><video src='' width='100%' height='380px' controls></video></span><br/>
 				</div>
 			</div>
@@ -46,16 +46,18 @@
 		<!-- Main -->
 		<div id="main">
 
-			<!-- Intro -->
+			<!-- Module Overview -->
 			<article id="moduleOverview">
-				<p>Many business professionals find statistics useful in their work: Financial specialists use statistical
-models to perform portfolio analysis, while forensic accountants rely on statistical methods to
-uncover financial fraud. Therefore, a firm grounding in business statistics is critical to every
-individual who wishes to excel in the accounting profession.
-With the aid of business focused settings, students will learn and master descriptive statistics,
-probability theory and distributions, sampling distributions, inferential statistics and regression
-analysis. Beyond the statistical computations, this module makes attempt to emphasis conceptual
-understanding, interpretation of statistical results and application to case studies.</p>
+				<h2 class="major">Module Overview</h2>
+					<p>Many business professionals find statistics useful in their work: Financial specialists use statistical
+						models to perform portfolio analysis, while forensic accountants rely on statistical methods to
+						uncover financial fraud. Therefore, a firm grounding in business statistics is critical to every
+						individual who wishes to excel in the accounting profession.
+						With the aid of business focused settings, students will learn and master descriptive statistics,
+						probability theory and distributions, sampling distributions, inferential statistics and regression
+						analysis. Beyond the statistical computations, this module makes attempt to emphasis conceptual
+						understanding, interpretation of statistical results and application to case studies.
+					</p>
 			</article>
 
 			<!-- Intro -->
