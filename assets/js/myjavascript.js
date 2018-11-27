@@ -1,8 +1,6 @@
 const ans1_1 = "1";
 const ans1_2 = "1";
 const ans1_3 = "1";
-const ans1_4 = "1";
-
 const ans2 = "2";
 const ans3 = "3";
 const ans4 = "4";
@@ -18,8 +16,11 @@ function init() {
         var input;
         /* Question 1 */
         $('#button1').click(function() {
-            input = $('#input1').val();
-            if (checkAnswer(1, input)) { correctAnswer(); }
+            var input1_1 = $('#input1_1').val();
+            var input1_2 = $('#input1_2').val();
+            var input1_3 = $('#input1_3').val();
+
+            if (checkAnswer('1_1', input1_1) && checkAnswer('1_2', input1_2) && checkAnswer('1_3', input1_3)) { correctAnswer(); }
             else { showHint(hint1); }
         });
     
@@ -43,6 +44,19 @@ function init() {
             if (checkAnswer(4, input)) { correctAnswer(); }
             else { showHint(hint4); }
         });
+        
+        
+        // Click on X button on modal
+        $(".close").onclick = function() {
+            $("#myModal").css("display", "none");
+        }
+        
+        // Click anywhere outside modal
+        window.onclick = function(event) {
+            if (event.target == $("#myModal")) {
+                $("#myModal").css("display", "none");
+            }
+        }
     });
 }
 
@@ -50,34 +64,35 @@ function init() {
 
 function checkAnswer(questionNumber, answer) {
     switch (questionNumber) {
-        case 1:
-        return (answer==ans1);
+        case '1_1':
+        return (answer==ans1_1);
 
-        case 2:
+        case '1_2':
+        return (answer==ans1_2);
+
+        case '1_3':
+        return (answer==ans1_3);
+
+        case '2':
         return (answer==ans2);
 
-        case 3:
+        case '3':
         return (answer==ans3);
 
-        case 4:
+        case '4':
         return (answer==ans4);
     }
 }
 
 
 function correctAnswer() {
-
+    if ($('.question div:last-child')[0] != null && $('.question div:last-child')[0].className == 'alert') { $('.question div:last-child')[0].remove(); }
+    $(".question").append("<div class='alert'><span class='closebtn' onclick='this.parentElement.style.display='none';'>&times;</span><p>You are correct!</p></div>");
 }
 
 function showHint(target) {
-    alertWrongAnswer();
-
-    // Display hint
+    if ($('.question div:last-child')[0] != null && $('.question div:last-child')[0].className == 'alert') { $('.question div:last-child')[0].remove(); }
+    $(".question").append("<div class='alert' style='background-color:#f44336'><span class='closebtn' onclick='this.parentElement.style.display='none';'>&times;</span><p>Wrong :(</p></div>");
 }
-
-function alertWrongAnswer() {
-
-}
-
 
 

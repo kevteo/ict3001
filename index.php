@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE HTML>
 <!--
 	Dimension by HTML5 UP
@@ -10,6 +13,7 @@
 	<title>Basic Statistics</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -66,9 +70,9 @@
 				<div class='tutorial'>Tutorial</div>
 				<div class='question'>
 					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
-					<input type="text" class="input" id="input1-1">
-					<input type="text" class="input" id="input1-2">
-					<input type="text" class="input" id="input1-3">
+					<input type="text" class="input" id="input1_1">
+					<input type="text" class="input" id="input1_2">
+					<input type="text" class="input" id="input1_3">
 					<br/>
 					<button id='button1'>Submit Answer!</button>
 				</div>
@@ -98,7 +102,7 @@
 				<div class='tutorial'>Tutorial</div>
 				<div class='question'>
 					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
-					<input type="text" class="input" id="input2">
+					<input type="text" class="input" id="input3">
 					<br/>
 					<button id='button1'>Submit Answer!</button>
 				</div>
@@ -111,7 +115,7 @@
 				<div class='tutorial'>Tutorial</div>
 				<div class='question'>
 					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
-					<input type="text" class="input" id="input2">
+					<input type="text" class="input" id="input4">
 					<br/>
 					<button id='button1'>Submit Answer!</button>
 				</div>
@@ -360,11 +364,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						</ul>
 					</form>
 				</section>
-
 			</article>
-
 		</div>
 
+
+		
 
 		<!-- Footer
 					<footer id="footer">
@@ -383,6 +387,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/myjavascript.js"></script>
+	<script>init()</script>
 </body>
 
 </html>
