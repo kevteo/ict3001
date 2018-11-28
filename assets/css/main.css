@@ -1297,7 +1297,7 @@ input, select, textarea {
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
 				padding: 3rem 2rem;
-				max-height: 40rem;
+				max-height: 70rem;
 				overflow: hidden;
 			}
 
@@ -1682,4 +1682,25 @@ input, select, textarea {
 /* When moving the mouse over the close button */
 .closebtn:hover {
     color: black;
+}
+
+
+
+
+#visitDiscord {
+	padding: 20px;
+	margin: auto;
+	margin-top: 50px;
+	width: 80%;
+	opacity: 0.5;
+	background-color: black;
+}
+
+#visitDiscord p {
+	margin: 0;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
 }

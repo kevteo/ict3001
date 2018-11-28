@@ -104,7 +104,7 @@ session_start();
 					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
 					<input type="text" class="input" id="input3">
 					<br/>
-					<button id='button1'>Submit Answer!</button>
+					<button id='button3'>Submit Answer!</button>
 				</div>
 				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
 			</article>
@@ -117,7 +117,7 @@ session_start();
 					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
 					<input type="text" class="input" id="input4">
 					<br/>
-					<button id='button1'>Submit Answer!</button>
+					<button id='button4'>Submit Answer!</button>
 				</div>
 				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
 			</article>
@@ -367,14 +367,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</article>
 		</div>
 
-
+		<div id='visitDiscord'>
+			<p>Please visit the Discord Channel</p>
+		</div>
 		
-
-		<!-- Footer
-					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-				-->
+		<!--
+		<footer id="footer">
+			<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+		</footer>
+		-->
+				
 	</div>
 
 	<!-- BG -->

@@ -27,36 +27,28 @@ function init() {
         /* Question 2 */
         $('#button2').click(function() {
             input = $('#input2').val();
-            if (checkAnswer(2, input)) { correctAnswer(); }
+            if (checkAnswer('2', input)) { correctAnswer(); }
             else { showHint(hint2); }
         });
     
         /* Question 3 */
         $('#button3').click(function() {
             input = $('#input3').val();
-            if (checkAnswer(3, input)) { correctAnswer(); }
+            if (checkAnswer('3', input)) { correctAnswer(); }
             else { showHint(hint3); }
         });
     
         /* Question 4 */
         $('#button4').click(function() {
             input = $('#input4').val();
-            if (checkAnswer(4, input)) { correctAnswer(); }
+            if (checkAnswer('4', input)) { correctAnswer(); }
             else { showHint(hint4); }
         });
         
         
-        // Click on X button on modal
-        $(".close").onclick = function() {
-            $("#myModal").css("display", "none");
-        }
-        
-        // Click anywhere outside modal
-        window.onclick = function(event) {
-            if (event.target == $("#myModal")) {
-                $("#myModal").css("display", "none");
-            }
-        }
+        $("a").click(function() {
+            clearAlert();
+        });
     });
 }
 
@@ -86,13 +78,20 @@ function checkAnswer(questionNumber, answer) {
 
 
 function correctAnswer() {
-    if ($('.question div:last-child')[0] != null && $('.question div:last-child')[0].className == 'alert') { $('.question div:last-child')[0].remove(); }
-    $(".question").append("<div class='alert'><span class='closebtn' onclick='this.parentElement.style.display='none';'>&times;</span><p>You are correct!</p></div>");
+    clearAlert();
+    $(".question").append("<div class='alert'><p>You are correct!</p></div>");
 }
 
 function showHint(target) {
-    if ($('.question div:last-child')[0] != null && $('.question div:last-child')[0].className == 'alert') { $('.question div:last-child')[0].remove(); }
-    $(".question").append("<div class='alert' style='background-color:#f44336'><span class='closebtn' onclick='this.parentElement.style.display='none';'>&times;</span><p>Wrong :(</p></div>");
+    clearAlert();
+    $(".question").append("<div class='alert' style='background-color:#f44336'><p>Wrong :(</p></div>");
 }
 
-
+function clearAlert() {
+    var objectArray = $('.question div:last-child');
+    for (var i=0; i < objectArray.length; i++) {
+        if (objectArray[i].className == 'alert') { 
+            objectArray[i].remove();
+        }
+    } 
+}
