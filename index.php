@@ -33,7 +33,7 @@ session_start();
 				<div class="inner">
 					<h1 style='font-size:85px;'>Basic Statistics</h1>
 							<p>Everything is data and only with statistics,we can interpret data accurately.</p><a href=#moduleOverview class="button">Module Overview</a>
-					<span class="image main"><video src='' width='100%' height='380px' controls></video></span><br/>
+					<span class="image main"><iframe width="100%" height="500px" src="https://www.youtube.com/embed/dk9N349dGao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span><br/>
 				</div>
 			</div>
 			<nav>
@@ -368,7 +368,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		</div>
 
 
-		
+
 
 		<!-- Footer
 					<footer id="footer">
