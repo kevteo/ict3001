@@ -49,6 +49,10 @@ function init() {
         $("a").click(function() {
             clearAlert();
         });
+
+        $("#discordLink").click(function() {
+            window.location = "https://discord.gg/EMmvQVY";
+        });
     });
 }
 
@@ -94,4 +98,8 @@ function clearAlert() {
             objectArray[i].remove();
         }
     } 
+}
+
+function clearVisitDiscord() {
+    $('#visitDiscord').css('display', 'none');
 }

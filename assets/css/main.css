@@ -983,6 +983,7 @@ input, select, textarea {
 	input[type="button"],
 	button,
 	.button {
+		font-weight:bold;
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -1692,15 +1693,34 @@ input, select, textarea {
 	margin: auto;
 	margin-top: 50px;
 	width: 80%;
-	opacity: 0.5;
+	opacity: 0.8;
+	text-align: center;
 	background-color: black;
+}
+
+#visitDiscord h2 {
+	font-weight: bold;
+}
+
+#visitDiscord h3 {
+	margin-top: 15px;
+	font-weight: bold;
+	text-align: left;
 }
 
 #visitDiscord p {
 	margin: 0;
 	font-family: "Source Sans Pro", sans-serif;
-	font-weight: bold;
 	color: white;
-	text-align: center;
 	vertical-align: middle;
+	text-align: left;
+}
+
+#visitDiscord button {
+	margin-top: 15px;
+	font-size: 1.4em;
+}
+
+.button {
+	font-weight: bold;
 }
