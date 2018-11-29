@@ -79,24 +79,31 @@ session_start();
 							<th>Sampling Distribution</th>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
+							<td>
+								<p>The population parameter formula given by:</p>
+								<img src='./images/formula1.png' width='70%' height='55%'>
+								<p>
+									Population parameter in Statistics is the set of all the values of a quantity of interest. 
+									A population parameter is a number that summarizes an attribute of the population.
+								</p><br/>
+								<p>Sample distribution in Statistics is a subset of population and is the set of value you actually use in your estimation.</p>
+								<img src='./images/img2.png' width='70%' height='55%'>
+							</td>
+							<td>
+								<p>The sample distribution formula given by: </p>
+								<img src='./images/img3.png' width='70%' height='55%'>
+							</td>
 						</tr>
 					</table>
-					<p>
-						Population parameter in Statistics is the set of all the values of a quantity of interest. 
-						A population parameter is a number that summarizes an attribute of the population.
-					</p>
-					<br/>
-					<p>The population parameter formula given by:</p>
-					<img src='./images/formula1.png' width='40%' height='40%'>
-					<p>Sample distribution in Statistics is a subset of population and is the set of value you actually use in your estimation.</p>
-					<img src='./images/img2.png' width='40%' height='40%'>
-					<p>The sample distribution formula given by: </p>
-					<img src='./images/img3.png' width='40%' height='40%'>
+					
 					<span class="image main"><iframe width="100%" height="600px" src="https://www.youtube.com/embed/SFPWF42K8ME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
 				</div>
 				<div class='question'>
+					<p>John gave us some sample of his records which is [3,5,5,6,8,12]</p>
+					<p>Q1: Which method should we use?</p>
+					<p>Q2: What is the average customer spending for John’s waffle?</p>
+					<p>Q3: What is the standard deviation?</p>
+
 					<input type="text" class="input" id="input1_1">
 					<input type="text" class="input" id="input1_2">
 					<input type="text" class="input" id="input1_3">
@@ -141,18 +148,18 @@ session_start();
 					<br/>
 					<button id='button2'>Submit Answer!</button>
 				</div>
-				<span class="image main"><iframe width="100%" height="500px" src="https://www.youtube.com/embed/l_4XGCIa81w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+				<span class="image main"><iframe width="100%" height="600px" src="https://www.youtube.com/embed/l_4XGCIa81w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
 
 			</article>
 
 			<!-- About -->
 			<article id="about">
-			<h2 class="major">Central Limit Theorem</h2>
+				<h2 class="major">Central Limit Theorem</h2>
 				<div class='tutorial'>
 					<p>In Central Limit Theorem, for sufficiently large samples with size greater than 30, the shape of the sampling distribution will become more and more like a normal distribution. </p>
 					<p>If there are large enough set of samples then the sampling distribution of mean approaches normal distribution.</p>
 					<p>For example, if we put histograms of an average of five fair, 6-sided dice rolls together, this is what it will look like when the number of experiments grows:</p>
-					<img src='./images/gif1.jpeg' width='50%' height='50%'>
+					<!-- <img src='./images/gif1.jpeg' width='50%' height='50%'> -->
 				</div>
 				<div class='question'>
 					<p>John met up with a cola supplier which uses a filling machine that fills cans with 12oz of cola. <br/>Suppose that the fills are known to have a mean of 12.1oz and a standard deviation of 0.2oz. <br/>What is the probability that the average fill for a 36-pack of cola is less than 12oz?</p>
@@ -160,7 +167,7 @@ session_start();
 					<br/>
 					<button id='button3'>Submit Answer!</button>
 				</div>
-				<span class="image main"><iframe width="100%" height="500px" src="https://www.youtube.com/embed/ykH7uoEeOCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+				<span class="image main"><iframe width="100%" height="600px" src="https://www.youtube.com/embed/ykH7uoEeOCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
 			</article>
 
 			<!-- Contact -->
