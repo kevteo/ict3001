@@ -32,8 +32,17 @@ session_start();
 			<div class="content">
 				<div class="inner">
 					<h1 style='font-size:85px;'>Basic Statistics</h1>
-							<p>Everything is data and only with statistics,we can interpret data accurately.</p><a href=#moduleOverview class="button">Module Overview</a>
-					<span class="image mainIntro"><iframe width="100%" height="500px" src="https://www.youtube.com/embed/dk9N349dGao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span><br/>
+					<p>Everything is data and only with statistics,we can interpret data accurately.</p><a href=#lessonOverview class="button">Lesson Overview</a>
+					<div id='introduction'>
+						<p>
+							John is an aspiring entrepreneur who wants to start his own waffles business. <br/>
+							However, he is faced with many difficulties when making decisions. <br/>
+							Fortunately, his friend Ben is a statistician and he is there to provide all the help John needs.
+						</p>
+						<img src='./images/img1.jpeg' width='20%' height='90%'>
+					</div>
+					
+					<span class="image mainIntro"><iframe width="100%" height="600px" src="https://www.youtube.com/embed/dk9N349dGao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span><br/>
 				</div>
 			</div>
 			<nav>
@@ -62,25 +71,40 @@ session_start();
 
 			<!-- Intro -->
 			<article id="intro">
-				<h2 class="major">Sampling Distribution</h2>
+				<h2 class="major">Introduction to statistics population and sample distribution</h2>
 				<div class='tutorial'>
+					<table style="border='3px solid white'">
+						<tr>
+							<th>Population Parameter</th>
+							<th>Sampling Distribution</th>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
 					<p>
-					John is a young man that is aspiring to start his own waffle business. However, he faced many statistical problems. His friend Ben is a statistician and is always there to provide all the help John needs.
+						Population parameter in Statistics is the set of all the values of a quantity of interest. 
+						A population parameter is a number that summarizes an attribute of the population.
 					</p>
-					<img src='./images/img1.jpeg' width='50%' height='50%'>
-					<!-- Video 1 Introduction -->
+					<br/>
+					<p>The population parameter formula given by:</p>
+					<img src='./images/formula1.png' width='40%' height='40%'>
+					<p>Sample distribution in Statistics is a subset of population and is the set of value you actually use in your estimation.</p>
+					<img src='./images/img2.png' width='40%' height='40%'>
+					<p>The sample distribution formula given by: </p>
+					<img src='./images/img3.png' width='40%' height='40%'>
+					<span class="image main"><iframe width="100%" height="600px" src="https://www.youtube.com/embed/SFPWF42K8ME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
 				</div>
 				<div class='question'>
-
 					<input type="text" class="input" id="input1_1">
 					<input type="text" class="input" id="input1_2">
 					<input type="text" class="input" id="input1_3">
 					<br/>
 					<button id='button1'>Submit Answer!</button>
 				</div>
-
-				<span class="image main"><iframe width="100%" height="500px" src="https://www.youtube.com/embed/SFPWF42K8ME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
-				<span class="image main"><iframe width="100%" height="500px" src="https://www.youtube.com/embed/0N1qnW49VXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+				
+				<span class="image main"><iframe width="100%" height="600px" src="https://www.youtube.com/embed/0N1qnW49VXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
 			</article>
 
 			<!-- Work -->
@@ -163,10 +187,11 @@ session_start();
 				</div>
 				<div class='question'>
 
-
-					<input type="text" class="input" id="input4">
-					<br/>
-					<button id='button4'>Submit Answer!</button>
+				<!--
+				<input type="text" class="input" id="input4">
+				<br/>
+				<button id='button4'>Submit Answer!</button>
+				-->
 				</div>
 				<span class="image main"></span>
 			</article>
@@ -191,11 +216,11 @@ session_start();
 				in a group collaborative learning activity on an application called DISCORD. The DISCORD application enables text, image, video and audio
 				communication between users in a chat channel.
 			</p>
-			<h3><span class='underline'>How it is going to be conducted</span></h3>
+			<h3><span class='underline'>How will it be conducted?</span></h3>
 			<p>
-				Students will be split into groups and would be given "Real World" problems to solve. Students will be invited to join the DISCORD server
+				Students will be split into groups and will be given challenging real world problem. Students will be invited to join the DISCORD server
 				and be assigned their group roles. With the group roles they will be able join the appropriate text and voice channels where they can participate
-				in the group activity to solve the "Real World" problems.
+				in the group activity to solve the problem.
 			</p>
 			<button id='discordLink'>Discord Invitation</button>
 		</article>
