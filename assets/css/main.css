@@ -983,6 +983,7 @@ input, select, textarea {
 	input[type="button"],
 	button,
 	.button {
+		font-weight:bold;
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -1297,7 +1298,7 @@ input, select, textarea {
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
 				padding: 3rem 2rem;
-				max-height: 40rem;
+				max-height: 70rem;
 				overflow: hidden;
 			}
 
@@ -1327,7 +1328,7 @@ input, select, textarea {
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
-				width: 27vh;
+				width: 36vh;
 			}
 
 				#header nav ul li:first-child {
@@ -1337,12 +1338,12 @@ input, select, textarea {
 				#header nav ul li a {
 					display: block;
 					min-width: 10.5rem;
-					height: 2.75rem;
+					height: 3rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					/* letter-spacing: 0.2rem; */
-					font-size: 0.65rem;
+					font-size: 90%;
 					font-weight: bold;
 					border-bottom: 0;
 				}
@@ -1653,6 +1654,20 @@ input, select, textarea {
 
 
 
+.underline {
+	display:inline-block;
+    border-bottom:1px solid white;
+    padding-bottom: 0.7px;
+}
+
+.tutorial br {
+   display: block;
+   margin: 10px 0;
+}
+
+
+
+
 /* The alert message box */
 .alert {
     padding: 5px;
@@ -1683,3 +1698,89 @@ input, select, textarea {
 .closebtn:hover {
     color: black;
 }
+
+
+
+
+#visitDiscord {
+	padding: 20px;
+	margin: auto;
+	margin-top: 50px;
+	width: 80%;
+	opacity: 0.8;
+	text-align: center;
+	background-color: black;
+	font-weight:bold;
+	display:none;
+}
+
+#visitDiscord h2 {
+	font-weight: bold;
+}
+
+#visitDiscord h3 {
+	margin-top: 15px;
+
+	text-align: left;
+	text-decoration: underline;
+}
+
+#visitDiscord p {
+	margin: 0;
+	font-family: "Source Sans Pro", sans-serif;
+	color: white;
+	vertical-align: middle;
+	text-align: left;
+}
+
+#visitDiscord button {
+	margin-top: 15px;
+	font-size: 1.4em;
+}
+
+.button {
+	font-weight: bold;
+}
+
+#lessonOverview {
+	font-size: 22px;
+}
+
+#hint {
+	font-family: "Source Sans Pro", sans-serif;
+	margin: auto;
+	color: black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60%;
+	border-radius: 10px;
+	background-color: yellow;
+	font-size: 20px;
+	font-weight: bold;
+	opacity: 0.7;
+}
+
+.tutorial p {
+	margin: 0;
+}
+
+.question p {
+	margin: 0;
+}
+
+img {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.tutorial {
+	font-size: 18px;
+}
+
+.question {
+	margin: auto;
+	margin-top: 15px;
+	font-size: 25px;
+	max-width: 90%;
+}
+

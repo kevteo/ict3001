@@ -38,7 +38,7 @@ session_start();
 			</div>
 			<nav>
 				<ul>
-					<li><a href="#intro">Population Distribution</a></li>
+					<li><a href="#intro">Sampling Distribution</a></li>
 					<li><a href="#work">T-Distribution</a></li>
 					<li><a href="#about">Central Limit Theorem</a></li>
 					<li><a href="#contact">Inferential Statistics</a></li>
@@ -49,27 +49,29 @@ session_start();
 
 		<!-- Main -->
 		<div id="main">
-
-			<!-- Module Overview -->
-			<article id="moduleOverview">
-				<h2 class="major">Module Overview</h2>
-					<p>Many business professionals find statistics useful in their work: Financial specialists use statistical
-						models to perform portfolio analysis, while forensic accountants rely on statistical methods to
-						uncover financial fraud. Therefore, a firm grounding in business statistics is critical to every
-						individual who wishes to excel in the accounting profession.
-						With the aid of business focused settings, students will learn and master descriptive statistics,
-						probability theory and distributions, sampling distributions, inferential statistics and regression
-						analysis. Beyond the statistical computations, this module makes attempt to emphasis conceptual
-						understanding, interpretation of statistical results and application to case studies.
-					</p>
+			<!-- Lesson Overview -->
+			<article id="lessonOverview">
+				<h2 class="major">Lesson Overview</h2>
+					<ol>
+						<li>Use descriptive statistic methods to organize, summarize and present data</li>
+						<li>Use statistical models and methods to compute statistical measures</li>
+						<li>Interpret and explain significance of statistical measures</li>
+						<li>Apply statistical analysis to case studies and employ results to facilitate decision making</li>
+					</ol>
 			</article>
 
 			<!-- Intro -->
 			<article id="intro">
-				<h2 class="major">Population Distribution</h2>
-				<div class='tutorial'>Tutorial</div>
+				<h2 class="major">Sampling Distribution</h2>
+				<div class='tutorial'>
+					<p>
+					John is a young man that is aspiring to start his own waffle business. However, he faced many statistical problems. His friend Ben is a statistician and is always there to provide all the help John needs.
+					</p>
+					<img src='./images/img1.jpeg' width='50%' height='50%'>
+					<!-- Video 1 Introduction -->
+				</div>
 				<div class='question'>
-					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
+
 					<input type="text" class="input" id="input1_1">
 					<input type="text" class="input" id="input1_2">
 					<input type="text" class="input" id="input1_3">
@@ -77,297 +79,132 @@ session_start();
 					<button id='button1'>Submit Answer!</button>
 				</div>
 
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+				<span class="image main"></span>
 			</article>
 
 			<!-- Work -->
 			<article id="work">
 				<h2 class="major">T-Distribution</h2>
-				<div class='tutorial'>Tutorial</div>
+				<div class='tutorial'>
+					<p>
+						In practice, we rarely know the population variance required for the Central Limit Theorem. Fortunately, there is another model for sampling distribution called T-distribution. T-distribution is a probability distribution that is used to estimate population parameters when the sample size is small or when the population variance is not known.
+						A T distribution resembles a normal distribution. However, it differs from normal distribution by its degrees of freedom. A T distribution has a smaller number of independent observations, typically  n<30. Hence, when the sample is not large enough, or the population variance is unknown, a t-statistic formula should be calculated as a basis for the T distribution.
+						<br/><br/>
+						The T-statistic formula is given by:<br/>
+						t = [ x - μ ] / [ s / sqrt( n ) ]
+						<br/><br/>
+						where <br/>
+						x = sample mean <br/>
+						μ = population mean <br/>
+						s = standard deviation <br/>
+						n = sample size <br/>
+						<br/><br/>
+						The degree of freedom (df) is given by = n - 1
+						<br/><br/>
+						Similar to normal distribution, it is too complicated to compute probabilities (area under curve) of a T-distribution. Hence, a pre-computed table called the t-table is needed.
+						<br/><br/>
+						<img src='./images/t-dist_table.jpg' height='50%' width='50%'>
+					</p>
+				</div>
 				<div class='question'>
-					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
+					<p>
+						John has an average sale per day of 30 waffles.
+						After conducting a 15-day sample testing, John waffles sales per day is 29 waffles with a standard deviation of 5.
+						Find the probability that of 15 days selected, John average sales of waffles are no more than 29 waffles.
+					</p>
 					<input type="text" class="input" id="input2">
 					<br/>
 					<button id='button2'>Submit Answer!</button>
 				</div>
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+				<span class="image main"></span>
 			</article>
 
 			<!-- About -->
 			<article id="about">
 			<h2 class="major">Central Limit Theorem</h2>
-				<div class='tutorial'>Tutorial</div>
+				<div class='tutorial'>
+					<p>In Central Limit Theorem, for sufficiently large samples with size greater than 30, the shape of the sampling distribution will become more and more like a normal distribution. </p>
+					<p>If there are large enough set of samples then the sampling distribution of mean approaches normal distribution.</p>
+					<p>For example, if we put histograms of an average of five fair, 6-sided dice rolls together, this is what it will look like when the number of experiments grows:</p>
+					<img src='./images/gif1.jpeg' width='50%' height='50%'>
+				</div>
 				<div class='question'>
-					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
+					<p>John met up with a cola supplier which uses a filling machine that fills cans with 12oz of cola. <br/>Suppose that the fills are known to have a mean of 12.1oz and a standard deviation of 0.2oz. <br/>What is the probability that the average fill for a 36-pack of cola is less than 12oz?</p>
 					<input type="text" class="input" id="input3">
 					<br/>
-					<button id='button1'>Submit Answer!</button>
+					<button id='button3'>Submit Answer!</button>
 				</div>
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+				<span class="image main"></span>
 			</article>
 
 			<!-- Contact -->
 			<article id="contact">
 			<h2 class="major">Inferential Statistics</h2>
-				<div class='tutorial'>Tutorial</div>
+				<div class='tutorial'>
+					<p>Inferential statistics takes data from a sample and makes inferences about the larger population from which the sample was drawn.</p>
+					<p>The process for performing inferential statistical study consists of four steps:</p>
+					<img src='./images/tut4_1.png' width='50%' height='50%'>
+					<p>Curiosity question is being formulated as one of five questions about population parameter as follows:</p>
+					<img src='./images/tut4_2.png' width='50%' height='50%'>
+
+					<p>There are two basic methods for making inferences about population parameters:</p><br/>
+					<h3>1.	Estimation</h3>
+					<p>Estimation is further broken into two: Point and Interval estimation</p>
+					<p>Point estimate: a single number to estimate parameter</p>
+					<p>Interval estimate: a range to contain the population parameter</p>
+					<br/>
+
+					<h3>2.	Statistical hypothesis</h3>
+					<p>There are two theories in this method of inference:</p>
+					<p>The <b>alternative hypothesis</b> is a hypothesis proposed by the experimenter The <b>null hypothesis</b> is the negation of the alternative hypothesis</p>
+					<p>A decision has to be made to accept or reject a value of population parameter</p>
+				</div>
 				<div class='question'>
-					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
+
+
 					<input type="text" class="input" id="input4">
 					<br/>
-					<button id='button1'>Submit Answer!</button>
+					<button id='button4'>Submit Answer!</button>
 				</div>
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+				<span class="image main"></span>
 			</article>
 
-			<!-- Elements -->
-			<article id="elements">
-				<h2 class="major">Elements</h2>
 
-				<section>
-					<h3 class="major">Text</h3>
-					<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-						This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-						This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-					<hr />
-					<h2>Heading Level 2</h2>
-					<h3>Heading Level 3</h3>
-					<h4>Heading Level 4</h4>
-					<h5>Heading Level 5</h5>
-					<h6>Heading Level 6</h6>
-					<hr />
-					<h4>Blockquote</h4>
-					<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod.
-						Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing
-						accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu
-						felis.</blockquote>
-					<h4>Preformatted</h4>
-					<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-				</section>
-
-				<section>
-					<h3 class="major">Lists</h3>
-
-					<h4>Unordered</h4>
-					<ul>
-						<li>Dolor pulvinar etiam.</li>
-						<li>Sagittis adipiscing.</li>
-						<li>Felis enim feugiat.</li>
-					</ul>
-
-					<h4>Alternate</h4>
-					<ul class="alt">
-						<li>Dolor pulvinar etiam.</li>
-						<li>Sagittis adipiscing.</li>
-						<li>Felis enim feugiat.</li>
-					</ul>
-
-					<h4>Ordered</h4>
-					<ol>
-						<li>Dolor pulvinar etiam.</li>
-						<li>Etiam vel felis viverra.</li>
-						<li>Felis enim feugiat.</li>
-						<li>Dolor pulvinar etiam.</li>
-						<li>Etiam vel felis lorem.</li>
-						<li>Felis enim et feugiat.</li>
-					</ol>
-					<h4>Icons</h4>
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-					</ul>
-
-					<h4>Actions</h4>
-					<ul class="actions">
-						<li><a href="#" class="button primary">Default</a></li>
-						<li><a href="#" class="button">Default</a></li>
-					</ul>
-					<ul class="actions stacked">
-						<li><a href="#" class="button primary">Default</a></li>
-						<li><a href="#" class="button">Default</a></li>
-					</ul>
-				</section>
-
-				<section>
-					<h3 class="major">Table</h3>
-					<h4>Default</h4>
-					<div class="table-wrapper">
-						<table>
-							<thead>
-								<tr>
-									<th>Name</th>
-									<th>Description</th>
-									<th>Price</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Item One</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>Item Two</td>
-									<td>Vis ac commodo adipiscing arcu aliquet.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>Item Three</td>
-									<td> Morbi faucibus arcu accumsan lorem.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>Item Four</td>
-									<td>Vitae integer tempus condimentum.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>Item Five</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
-									<td>29.99</td>
-								</tr>
-							</tbody>
-							<tfoot>
-								<tr>
-									<td colspan="2"></td>
-									<td>100.00</td>
-								</tr>
-							</tfoot>
-						</table>
-					</div>
-
-					<h4>Alternate</h4>
-					<div class="table-wrapper">
-						<table class="alt">
-							<thead>
-								<tr>
-									<th>Name</th>
-									<th>Description</th>
-									<th>Price</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Item One</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>Item Two</td>
-									<td>Vis ac commodo adipiscing arcu aliquet.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>Item Three</td>
-									<td> Morbi faucibus arcu accumsan lorem.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>Item Four</td>
-									<td>Vitae integer tempus condimentum.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>Item Five</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
-									<td>29.99</td>
-								</tr>
-							</tbody>
-							<tfoot>
-								<tr>
-									<td colspan="2"></td>
-									<td>100.00</td>
-								</tr>
-							</tfoot>
-						</table>
-					</div>
-				</section>
-
-				<section>
-					<h3 class="major">Buttons</h3>
-					<ul class="actions">
-						<li><a href="#" class="button primary">Primary</a></li>
-						<li><a href="#" class="button">Default</a></li>
-					</ul>
-					<ul class="actions">
-						<li><a href="#" class="button">Default</a></li>
-						<li><a href="#" class="button small">Small</a></li>
-					</ul>
-					<ul class="actions">
-						<li><a href="#" class="button primary icon fa-download">Icon</a></li>
-						<li><a href="#" class="button icon fa-download">Icon</a></li>
-					</ul>
-					<ul class="actions">
-						<li><span class="button primary disabled">Disabled</span></li>
-						<li><span class="button disabled">Disabled</span></li>
-					</ul>
-				</section>
-
-				<section>
-					<h3 class="major">Form</h3>
-					<form method="post" action="#">
-						<div class="fields">
-							<div class="field half">
-								<label for="demo-name">Name</label>
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-							</div>
-							<div class="field half">
-								<label for="demo-email">Email</label>
-								<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-							</div>
-							<div class="field">
-								<label for="demo-category">Category</label>
-								<select name="demo-category" id="demo-category">
-									<option value="">-</option>
-									<option value="1">Manufacturing</option>
-									<option value="1">Shipping</option>
-									<option value="1">Administration</option>
-									<option value="1">Human Resources</option>
-								</select>
-							</div>
-							<div class="field half">
-								<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-								<label for="demo-priority-low">Low</label>
-							</div>
-							<div class="field half">
-								<input type="radio" id="demo-priority-high" name="demo-priority">
-								<label for="demo-priority-high">High</label>
-							</div>
-							<div class="field half">
-								<input type="checkbox" id="demo-copy" name="demo-copy">
-								<label for="demo-copy">Email me a copy</label>
-							</div>
-							<div class="field half">
-								<input type="checkbox" id="demo-human" name="demo-human" checked>
-								<label for="demo-human">Not a robot</label>
-							</div>
-							<div class="field">
-								<label for="demo-message">Message</label>
-								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-							</div>
-						</div>
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" class="primary" /></li>
-							<li><input type="reset" value="Reset" /></li>
-						</ul>
-					</form>
-				</section>
-			</article>
 		</div>
 
+		<article id='visitDiscord' class='active'>
+			<h2>Group Collaborative Learning</h2>
+			<hr style='margin: 1px;'>
+			<h3><span class='underline'>What have we learnt so far?</span></h3>
+			<p>
+				We found out how statistics can be applied to the real world by following John on his attempt to start
+				his own waffle shop. With the knowledge about Population Distribution, T-Distribution, Central Limit Theorem and Inferential Statistics
+				and practiced Population Distribution we are now going to move on to the next part of the activity.
+			</p>
+			<h3><span class='underline'>Why use Discord?</span></h3>
+			<p>
+				Asynchronous Learning is the idea that students the should be able to learn the same material at different times and location.
+				However, this would not be sufficient to replicate the experience that students can gain from the interactions and discussions
+				in a classroom with both their lecturers and fellow classmates. In order to digitalize this classroom experience we are going to participate
+				in a group collaborative learning activity on an application called DISCORD. The DISCORD application enables text, image, video and audio
+				communication between users in a chat channel.
+			</p>
+			<h3><span class='underline'>How it is going to be conducted</span></h3>
+			<p>
+				Students will be split into groups and would be given "Real World" problems to solve. Students will be invited to join the DISCORD server
+				and be assigned their group roles. With the group roles they will be able join the appropriate text and voice channels where they can participate
+				in the group activity to solve the "Real World" problems.
+			</p>
+			<button id='discordLink'>Discord Invitation</button>
+		</article>
 
+		<!--
+		<footer id="footer">
+			<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+		</footer>
+		-->
+
+<<<<<<< HEAD
 
 
 		<!-- Footer
@@ -375,6 +212,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 				-->
+=======
+>>>>>>> 1709c0e5dbc360a42ff83a34266768fef3be7e15
 	</div>
 
 	<!-- BG -->
