@@ -1805,9 +1805,9 @@ img {
 
 #introduction p {
 	float: left;
-	width: 65%;
+	width: 100%;
 	font-weight: bold;
-	font-size: 20px !important; 
+	font-size: 20px; 
 	vertical-align: middle;
 	margin-top: 5%;
 }
@@ -1815,5 +1815,12 @@ img {
 #introduction img {
 	float: right;
 	width: 25%;
+}
+
+.homeImg {
+	max-width:2300px; 
+	max-height:950px;
+	width: auto;
+	height: auto;
 }
 

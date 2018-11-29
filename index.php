@@ -34,15 +34,16 @@ session_start();
 					<h1 style='font-size:85px;'>Basic Statistics</h1>
 					<p>Everything is data and only with statistics,we can interpret data accurately.</p><a href=#lessonOverview class="button">Lesson Overview</a>
 					<div id='introduction'>
-						<p>
-							John is an aspiring entrepreneur who wants to start his own waffles business. <br/>
-							However, he is faced with many difficulties when making decisions. <br/>
-							Fortunately, his friend Ben is a statistician and he is there to provide all the help John needs.
-						</p>
-						<img src='./images/img1.jpeg' width='20%' height='90%'>
+					</br>
+					<p>John is an aspiring entrepreneur who wants to start his own waffles business. However, he is faced with many difficulties when making decisions. Fortunately, his friend Ben is a statistician and he is there to provide all the help John needs.
+					<br><br>
+					Navigate around to find out the story of John and learn more about how statistics can help make better decisions from data in life!</p>
 					</div>
-					
-					<span class="image mainIntro"><iframe width="100%" height="600px" src="https://www.youtube.com/embed/dk9N349dGao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span><br/>
+					<img class="homeImg" src='./images/img1.jpeg'>
+					<!-- <img src='./images/img1.jpeg' width='100%' height='100%'> -->
+				<br><br>
+				<a href=#introVideo class="button">Start The Waffle Business</a>
+				
 				</div>
 			</div>
 			<nav>
@@ -58,6 +59,12 @@ session_start();
 
 		<!-- Main -->
 		<div id="main">
+		<!-- Introduction Video -->
+			<article id="introVideo">
+			<h2 class="major">How It All Started</h2>
+					<span class="image mainIntro"><iframe height="600px" width="100%" src="https://www.youtube.com/embed/dk9N349dGao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+			</article>
+			
 			<!-- Lesson Overview -->
 			<article id="lessonOverview">
 				<h2 class="major">Lesson Overview</h2>
