@@ -33,7 +33,7 @@ session_start();
 				<div class="inner">
 					<h1 style='font-size:85px;'>Basic Statistics</h1>
 							<p>Everything is data and only with statistics,we can interpret data accurately.</p><a href=#moduleOverview class="button">Module Overview</a>
-					<span class="image main"><iframe width="100%" height="500px" src="https://www.youtube.com/embed/dk9N349dGao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span><br/>
+					<span class="image mainIntro"><iframe width="100%" height="500px" src="https://www.youtube.com/embed/dk9N349dGao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span><br/>
 				</div>
 			</div>
 			<nav>
@@ -79,7 +79,8 @@ session_start();
 					<button id='button1'>Submit Answer!</button>
 				</div>
 
-				<span class="image main"></span>
+				<span class="image main"><iframe width="100%" height="500px" src="https://www.youtube.com/embed/SFPWF42K8ME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+				<span class="image main"><iframe width="100%" height="500px" src="https://www.youtube.com/embed/0N1qnW49VXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
 			</article>
 
 			<!-- Work -->
@@ -116,7 +117,8 @@ session_start();
 					<br/>
 					<button id='button2'>Submit Answer!</button>
 				</div>
-				<span class="image main"></span>
+				<span class="image main"><iframe width="100%" height="500px" src="https://www.youtube.com/embed/l_4XGCIa81w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+
 			</article>
 
 			<!-- About -->
@@ -134,7 +136,7 @@ session_start();
 					<br/>
 					<button id='button3'>Submit Answer!</button>
 				</div>
-				<span class="image main"></span>
+				<span class="image main"><iframe width="100%" height="500px" src="https://www.youtube.com/embed/ykH7uoEeOCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
 			</article>
 
 			<!-- Contact -->
@@ -204,16 +206,7 @@ session_start();
 		</footer>
 		-->
 
-<<<<<<< HEAD
 
-
-		<!-- Footer
-					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-				-->
-=======
->>>>>>> 1709c0e5dbc360a42ff83a34266768fef3be7e15
 	</div>
 
 	<!-- BG -->

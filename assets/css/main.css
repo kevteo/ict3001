@@ -677,6 +677,12 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 2.5rem 0;
+			width: 50%;
+		}
+
+		.image.mainIntro {
+			display: block;
+			margin: 2.5rem 0;
 			width: 100%;
 		}
 
@@ -1783,4 +1789,3 @@ img {
 	font-size: 25px;
 	max-width: 90%;
 }
-
