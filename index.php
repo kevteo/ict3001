@@ -33,12 +33,12 @@ session_start();
 				<div class="inner">
 					<h1 style='font-size:85px;'>Basic Statistics</h1>
 							<p>Everything is data and only with statistics,we can interpret data accurately.</p><a href=#lessonOverview class="button">Lesson Overview</a>
-					<span class="image main"><video src='' width='100%' height='380px' controls></video></span><br/>
+					<span class="image main"></span><br/>
 				</div>
 			</div>
 			<nav>
 				<ul>
-					<li><a href="#intro">Population Distribution</a></li>
+					<li><a href="#intro">Sampling Distribution</a></li>
 					<li><a href="#work">T-Distribution</a></li>
 					<li><a href="#about">Central Limit Theorem</a></li>
 					<li><a href="#contact">Inferential Statistics</a></li>
@@ -62,10 +62,16 @@ session_start();
 
 			<!-- Intro -->
 			<article id="intro">
-				<h2 class="major">Population Distribution</h2>
-				<div class='tutorial'>Tutorial</div>
+				<h2 class="major">Sampling Distribution</h2>
+				<div class='tutorial'>
+					<p>
+					John is a young man that is aspiring to start his own waffle business. However, he faced many statistical problems. His friend Ben is a statistician and is always there to provide all the help John needs.
+					</p>
+					<img src='./images/img1.jpeg' width='50%' height='50%'>
+					<!-- Video 1 Introduction -->
+				</div>
 				<div class='question'>
-					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
+					
 					<input type="text" class="input" id="input1_1">
 					<input type="text" class="input" id="input1_2">
 					<input type="text" class="input" id="input1_3">
@@ -73,49 +79,86 @@ session_start();
 					<button id='button1'>Submit Answer!</button>
 				</div>
 
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+				<span class="image main"></span>
 			</article>
 
 			<!-- Work -->
 			<article id="work">
 				<h2 class="major">T-Distribution</h2>
-				<div class='tutorial'>Tutorial</div>
+				<div class='tutorial'>
+					<p>
+						In practice, we rarely know the population variance required for the Central Limit Theorem. Fortunately, there is another model for sampling distribution called T-distribution. T-distribution is a probability distribution that is used to estimate population parameters when the sample size is small or when the population variance is not known.
+						A T distribution resembles a normal distribution. However, it differs from normal distribution by its degrees of freedom. A T distribution has a smaller number of independent observations, typically  n<30. Hence, when the sample is not large enough, or the population variance is unknown, a t-statistic formula should be calculated as a basis for the T distribution.
+						<br/><br/>
+						The T-statistic formula is given by:<br/>
+						t = [ x - μ ] / [ s / sqrt( n ) ]
+						<br/><br/>
+						where <br/>
+						x = sample mean <br/>
+						μ = population mean <br/>
+						s = standard deviation <br/>
+						n = sample size <br/>
+						<br/><br/>
+						The degree of freedom (df) is given by = n - 1
+						<br/><br/>
+						Similar to normal distribution, it is too complicated to compute probabilities (area under curve) of a T-distribution. Hence, a pre-computed table called the t-table is needed.
+						<br/><br/>
+						<img src='./images/t-dist_table.jpg' height='50%' width='50%'>
+					</p>
+				</div>
 				<div class='question'>
-					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
 					<input type="text" class="input" id="input2">
 					<br/>
 					<button id='button2'>Submit Answer!</button>
 				</div>
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+				<span class="image main"></span>
 			</article>
 
 			<!-- About -->
 			<article id="about">
 			<h2 class="major">Central Limit Theorem</h2>
-				<div class='tutorial'>Tutorial</div>
+				<div class='tutorial'>
+					<p>In Central Limit Theorem, for sufficiently large samples with size greater than 30, the shape of the sampling distribution will become more and more like a normal distribution. </p>
+					<p>If there are large enough set of samples then the sampling distribution of mean approaches normal distribution.</p>
+					<p>For example, if we put histograms of an average of five fair, 6-sided dice rolls together, this is what it will look like when the number of experiments grows:</p>
+					<img src='./images/gif1.jpeg' width='50%' height='50%'>
+				</div>
 				<div class='question'>
-					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
+					<p>John met up with a cola supplier which uses a filling machine that fills cans with 12oz of cola. Suppose that the fills are known to have a mean of 12.1oz and a standard deviation of 0.2oz. What is the probability that the average fill for a 36-pack of cola is less than 12oz?</p>
 					<input type="text" class="input" id="input3">
 					<br/>
 					<button id='button3'>Submit Answer!</button>
 				</div>
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+				<span class="image main"></span>
 			</article>
 
 			<!-- Contact -->
 			<article id="contact">
 			<h2 class="major">Inferential Statistics</h2>
-				<div class='tutorial'>Tutorial</div>
+				<div class='tutorial'>
+					<p>Inferential statistics takes data from a sample and makes inferences about the larger population from which the sample was drawn.</p>
+					<p>The process for performing inferential statistical study consists of four steps:</p>
+					<img src='./images/tut4_1.png' width='50%' height='50%'>
+					<p>Curiosity question is being formulated as one of five questions about population parameter as follows:</p>
+					<img src='./images/tut4_2.png' width='50%' height='50%'>
+				</div>
 				<div class='question'>
-					<p>Despite claims that “parallax is dead,” the effect is very much alive and well — and captivating — when implemented correctly. Unfortunately, nine times out of ten, the implementation is botched in Javascript. Playing with scroll event listeners is risky business for performance, and modifying the DOM directly triggers unnecessary re-renders, causing choppy animations an</p>
+					<p>There are two basic methods for making inferences about population parameters:</p>
+					<h3>1.	Estimation</h3>
+					<p>Estimation is further broken into two: Point and Interval estimation</p>
+					<p>Point estimate: a single number to estimate parameter</p>
+					<p>Interval estimate: a range to contain the population parameter</p>
+					
+					<h3>2.	Statistical hypothesis</h3>
+					<p>There are two theories in this method of inference:</p>
+					<p>The <b>alternative hypothesis</b> is a hypothesis proposed by the experimenter The <b>null hypothesis</b> is the negation of the alternative hypothesis</p>
+					<p>A decision has to be made to accept or reject a value of population parameter</p>
+
 					<input type="text" class="input" id="input4">
 					<br/>
 					<button id='button4'>Submit Answer!</button>
 				</div>
-				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
+				<span class="image main"></span>
 			</article>
 
 
@@ -126,13 +169,13 @@ session_start();
 			<hr style='margin: 1px;'>
 			<h3><span class='underline'>What have we learnt so far?</span></h3>
 			<p>
-				We found out how statistics can be applied to the real world by following "input name" on his attempt to start
+				We found out how statistics can be applied to the real world by following John on his attempt to start
 				his own waffle shop. With the knowledge about Population Distribution, T-Distribution, Central Limit Theorem and Inferential Statistics
 				and practiced Population Distribution we are now going to move on to the next part of the activity.
 			</p>
-			<h3><span class='underline'>Introduction to DISCORD platform</span></h3>
+			<h3><span class='underline'>Why use Discord?</span></h3>
 			<p>
-				"Asynchronous Learning" is the idea that students the should be able to learn the same material at different times and location.
+				Asynchronous Learning is the idea that students the should be able to learn the same material at different times and location.
 				However, this would not be sufficient to replicate the experience that students can gain from the interactions and discussions
 				in a classroom with both their lecturers and fellow classmates. In order to digitalize this classroom experience we are going to participate
 				in a group collaborative learning activity on an application called DISCORD. The DISCORD application enables text, image, video and audio

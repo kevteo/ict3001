@@ -2,12 +2,12 @@ const ans1_1 = "1";
 const ans1_2 = "1";
 const ans1_3 = "1";
 const ans2 = "2";
-const ans3 = "3";
+const ans3 = "0.0013";
 const ans4 = "4";
 
 const hint1 = "1asdas";
-const hint2 = "23";
-const hint3 = "333";
+const hint2 = "Using the t-statistic value and degree of freedom, refer to T-distribution table to find the probability where the table column represents the df and the table values represents t-statistic.";
+const hint3 = ["./images/hint3_1", "./images/hint3_2"];
 const hint4 = "444hahah";
 
 
@@ -103,7 +103,11 @@ function correctAnswer() {
 function wrongAnswer(hint) {
     clearAlert();
     $(".question").append("<div class='alert' style='background-color:#f44336'><p>Wrong :(</p></div>");
-    $(".question").append("<div class='alert' id='hint'><p>Hint: " + hint + "</p></div>");
+    if (hint instanceof Array) {
+        $(".question").append("<div class='alert' id='hint'><span><img src='./images/hint3_1.png' width='20%' height='20%'><img src='./images/hint3_2.png' width='50%' height='50%'></span></div>");
+    } else {
+        $(".question").append("<div class='alert' id='hint'><p>Hint: " + hint + "</p></div>");
+    }
 }
 
 function clearAlert() {
@@ -126,9 +130,11 @@ function setInputs() {
 }
 
 function initVisitDiscord() {
-    //$('#visitDiscord').delay(1000).fadeIn(400);
-    $('#visitDiscord').css('display', 'block');
-
+    if (window.location.href.split('#')[1] == '') {
+        //$('#visitDiscord').delay(1000).fadeIn(400);
+        $('#visitDiscord').css('display', 'block');
+    }
+    
     $(window).bind('hashchange', function() {
         console.log("aaa");
         if (window.location.href.split('#')[1] == '') {

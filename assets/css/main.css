@@ -1660,6 +1660,11 @@ input, select, textarea {
     padding-bottom: 0.7px;
 }
 
+.tutorial br {
+   display: block;
+   margin: 10px 0;
+}
+
 
 
 
