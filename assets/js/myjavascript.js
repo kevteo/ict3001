@@ -5,44 +5,57 @@ const ans2 = "2";
 const ans3 = "3";
 const ans4 = "4";
 
-const hint1 = "";
-const hint2 = "";
-const hint3 = "";
-const hint4 = "";
+const hint1 = "1asdas";
+const hint2 = "23";
+const hint3 = "333";
+const hint4 = "444hahah";
 
 
 function init() {
     $(document).ready(function() {
+        setInputs();
+        initVisitDiscord();
+        
         var input;
+
         /* Question 1 */
         $('#button1').click(function() {
             var input1_1 = $('#input1_1').val();
             var input1_2 = $('#input1_2').val();
             var input1_3 = $('#input1_3').val();
+            localStorage.setItem("question1_1", input1_1);
+            localStorage.setItem("question1_2", input1_2);
+            localStorage.setItem("question1_3", input1_3);
 
             if (checkAnswer('1_1', input1_1) && checkAnswer('1_2', input1_2) && checkAnswer('1_3', input1_3)) { correctAnswer(); }
-            else { showHint(hint1); }
+            else { wrongAnswer(hint1); }
         });
     
         /* Question 2 */
         $('#button2').click(function() {
             input = $('#input2').val();
+            localStorage.setItem("question2", input);
+
             if (checkAnswer('2', input)) { correctAnswer(); }
-            else { showHint(hint2); }
+            else { wrongAnswer(hint2); }
         });
     
         /* Question 3 */
         $('#button3').click(function() {
             input = $('#input3').val();
+            localStorage.setItem("question3", input);
+
             if (checkAnswer('3', input)) { correctAnswer(); }
-            else { showHint(hint3); }
+            else { wrongAnswer(hint3); }
         });
     
         /* Question 4 */
         $('#button4').click(function() {
             input = $('#input4').val();
+            localStorage.setItem("question4", input);
+
             if (checkAnswer('4', input)) { correctAnswer(); }
-            else { showHint(hint4); }
+            else { wrongAnswer(hint4); }
         });
         
         
@@ -51,7 +64,8 @@ function init() {
         });
 
         $("#discordLink").click(function() {
-            window.location = "https://discord.gg/EMmvQVY";
+            win = window.open('https://discord.gg/EMmvQVY', '_blank');
+            win.focus();
         });
     });
 }
@@ -86,13 +100,14 @@ function correctAnswer() {
     $(".question").append("<div class='alert'><p>You are correct!</p></div>");
 }
 
-function showHint(target) {
+function wrongAnswer(hint) {
     clearAlert();
     $(".question").append("<div class='alert' style='background-color:#f44336'><p>Wrong :(</p></div>");
+    $(".question").append("<div class='alert' id='hint'><p>Hint: " + hint + "</p></div>");
 }
 
 function clearAlert() {
-    var objectArray = $('.question div:last-child');
+    var objectArray = $('.question div');
     for (var i=0; i < objectArray.length; i++) {
         if (objectArray[i].className == 'alert') { 
             objectArray[i].remove();
@@ -100,6 +115,33 @@ function clearAlert() {
     } 
 }
 
-function clearVisitDiscord() {
-    $('#visitDiscord').css('display', 'none');
+
+function setInputs() {
+    $('#input1_1').val(localStorage.getItem("question1_1"));
+    $('#input1_2').val(localStorage.getItem("question1_2"));
+    $('#input1_3').val(localStorage.getItem("question1_3"));
+    $('#input2').val(localStorage.getItem("question2"));
+    $('#input3').val(localStorage.getItem("question3"));
+    $('#input4').val(localStorage.getItem("question4"));
+}
+
+function initVisitDiscord() {
+    //$('#visitDiscord').delay(1000).fadeIn(400);
+    $('#visitDiscord').css('display', 'block');
+
+    $(window).bind('hashchange', function() {
+        console.log("aaa");
+        if (window.location.href.split('#')[1] == '') {
+            $('#visitDiscord').delay(1000).fadeIn(400);
+            //$('#visitDiscord').css('display', 'block');
+        } else {
+            $('#visitDiscord').css('display', 'none');
+        }
+    });
+
+    $(document).keyup(function(e) {
+        if (e.key === "Escape") {
+            $('#visitDiscord').delay(1000).fadeIn(400);
+       }
+   });
 }

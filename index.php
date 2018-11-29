@@ -32,7 +32,7 @@ session_start();
 			<div class="content">
 				<div class="inner">
 					<h1 style='font-size:85px;'>Basic Statistics</h1>
-							<p>Everything is data and only with statistics,we can interpret data accurately.</p><a href=#moduleOverview class="button">Module Overview</a>
+							<p>Everything is data and only with statistics,we can interpret data accurately.</p><a href=#lessonOverview class="button">Lesson Overview</a>
 					<span class="image main"><video src='' width='100%' height='380px' controls></video></span><br/>
 				</div>
 			</div>
@@ -49,19 +49,15 @@ session_start();
 
 		<!-- Main -->
 		<div id="main">
-
-			<!-- Module Overview -->
-			<article id="moduleOverview">
-				<h2 class="major">Module Overview</h2>
-					<p>Many business professionals find statistics useful in their work: Financial specialists use statistical
-						models to perform portfolio analysis, while forensic accountants rely on statistical methods to
-						uncover financial fraud. Therefore, a firm grounding in business statistics is critical to every
-						individual who wishes to excel in the accounting profession.
-						With the aid of business focused settings, students will learn and master descriptive statistics,
-						probability theory and distributions, sampling distributions, inferential statistics and regression
-						analysis. Beyond the statistical computations, this module makes attempt to emphasis conceptual
-						understanding, interpretation of statistical results and application to case studies.
-					</p>
+			<!-- Lesson Overview -->
+			<article id="lessonOverview">
+				<h2 class="major">Lesson Overview</h2>
+					<ol>
+						<li>Use descriptive statistic methods to organize, summarize and present data</li>
+						<li>Use statistical models and methods to compute statistical measures</li>
+						<li>Interpret and explain significance of statistical measures</li>
+						<li>Apply statistical analysis to case studies and employ results to facilitate decision making</li>
+					</ol>
 			</article>
 
 			<!-- Intro -->
@@ -122,38 +118,41 @@ session_start();
 				<span class="image main"><video src='' width='100%' height='500px' controls></video></span>
 			</article>
 
-			
+
 		</div>
 
-		<article id='visitDiscord'>
+		<article id='visitDiscord' class='active'>
 			<h2>Group Collaborative Learning</h2>
-			<h3>What we have learnt so far...</h3>
-			<p> 
-				So far we have found out how statistics can be applied to the real world by following "input name" on his attempt to start
+			<hr style='margin: 1px;'>
+			<h3><span class='underline'>What have we learnt so far?</span></h3>
+			<p>
+				We found out how statistics can be applied to the real world by following "input name" on his attempt to start
 				his own waffle shop. With the knowledge about Population Distribution, T-Distribution, Central Limit Theorem and Inferential Statistics
 				and practiced Population Distribution we are now going to move on to the next part of the activity.
 			</p>
-			<h3>Introduction to DISCORD platform</h3>
-			<p>"Asynchronouse Learning" is the idea that students the should be able to learn the same material at different times and location.
-			However, this would not be sufficient to replicate the experience that students can gain from the interactions and discussions
-			in a classroom with both their lecturers and fellow classmates. In order to digitalize this classroom experience we are going to participate
-			in a group collaborative learning activity on an application called DISCORD. The DISCORD application enables text, image, video and audio
-			communication between users in a chat channel.
+			<h3><span class='underline'>Introduction to DISCORD platform</span></h3>
+			<p>
+				"Asynchronous Learning" is the idea that students the should be able to learn the same material at different times and location.
+				However, this would not be sufficient to replicate the experience that students can gain from the interactions and discussions
+				in a classroom with both their lecturers and fellow classmates. In order to digitalize this classroom experience we are going to participate
+				in a group collaborative learning activity on an application called DISCORD. The DISCORD application enables text, image, video and audio
+				communication between users in a chat channel.
 			</p>
-			<h3>How it is going to be conducted</h3>
-			<p> Students will be split into groups and would be given "Real World" problems to solve. Students will be invited to join the DISCORD server
+			<h3><span class='underline'>How it is going to be conducted</span></h3>
+			<p>
+				Students will be split into groups and would be given "Real World" problems to solve. Students will be invited to join the DISCORD server
 				and be assigned their group roles. With the group roles they will be able join the appropriate text and voice channels where they can participate
 				in the group activity to solve the "Real World" problems.
 			</p>
 			<button id='discordLink'>Discord Invitation</button>
 		</article>
-		
+
 		<!--
 		<footer id="footer">
 			<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 		</footer>
 		-->
-				
+
 	</div>
 
 	<!-- BG -->
