@@ -107,6 +107,11 @@ session_start();
 					</p>
 				</div>
 				<div class='question'>
+					<p>
+						John has an average sale per day of 30 waffles. 
+						After conducting a 15-day sample testing, John waffles sales per day is 29 waffles with a standard deviation of 5.
+						Find the probability that of 15 days selected, John average sales of waffles are no more than 29 waffles.
+					</p>
 					<input type="text" class="input" id="input2">
 					<br/>
 					<button id='button2'>Submit Answer!</button>
@@ -124,7 +129,7 @@ session_start();
 					<img src='./images/gif1.jpeg' width='50%' height='50%'>
 				</div>
 				<div class='question'>
-					<p>John met up with a cola supplier which uses a filling machine that fills cans with 12oz of cola. Suppose that the fills are known to have a mean of 12.1oz and a standard deviation of 0.2oz. What is the probability that the average fill for a 36-pack of cola is less than 12oz?</p>
+					<p>John met up with a cola supplier which uses a filling machine that fills cans with 12oz of cola. <br/>Suppose that the fills are known to have a mean of 12.1oz and a standard deviation of 0.2oz. <br/>What is the probability that the average fill for a 36-pack of cola is less than 12oz?</p>
 					<input type="text" class="input" id="input3">
 					<br/>
 					<button id='button3'>Submit Answer!</button>
@@ -141,18 +146,21 @@ session_start();
 					<img src='./images/tut4_1.png' width='50%' height='50%'>
 					<p>Curiosity question is being formulated as one of five questions about population parameter as follows:</p>
 					<img src='./images/tut4_2.png' width='50%' height='50%'>
-				</div>
-				<div class='question'>
-					<p>There are two basic methods for making inferences about population parameters:</p>
+
+					<p>There are two basic methods for making inferences about population parameters:</p><br/>
 					<h3>1.	Estimation</h3>
 					<p>Estimation is further broken into two: Point and Interval estimation</p>
 					<p>Point estimate: a single number to estimate parameter</p>
 					<p>Interval estimate: a range to contain the population parameter</p>
+					<br/>
 					
 					<h3>2.	Statistical hypothesis</h3>
 					<p>There are two theories in this method of inference:</p>
 					<p>The <b>alternative hypothesis</b> is a hypothesis proposed by the experimenter The <b>null hypothesis</b> is the negation of the alternative hypothesis</p>
 					<p>A decision has to be made to accept or reject a value of population parameter</p>
+				</div>
+				<div class='question'>
+					
 
 					<input type="text" class="input" id="input4">
 					<br/>

@@ -131,23 +131,22 @@ function setInputs() {
 
 function initVisitDiscord() {
     if (window.location.href.split('#')[1] == '') {
-        //$('#visitDiscord').delay(1000).fadeIn(400);
-        $('#visitDiscord').css('display', 'block');
+        $('#visitDiscord').delay(1500).fadeIn(400);
+        //$('#visitDiscord').css('display', 'block');
     }
-    
+
     $(window).bind('hashchange', function() {
-        console.log("aaa");
         if (window.location.href.split('#')[1] == '') {
-            $('#visitDiscord').delay(1000).fadeIn(400);
+            $('#visitDiscord').delay(1500).fadeIn(400);
             //$('#visitDiscord').css('display', 'block');
         } else {
             $('#visitDiscord').css('display', 'none');
         }
     });
-
+    
     $(document).keyup(function(e) {
         if (e.key === "Escape") {
-            $('#visitDiscord').delay(1000).fadeIn(400);
+            $('#visitDiscord').delay(1500).fadeIn(400);
        }
    });
 }
