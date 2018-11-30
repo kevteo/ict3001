@@ -6,7 +6,7 @@ const ans3 = "0.0013";
 const ans4 = "4";
 
 const hint1 = ['Population is the whole set of data that people interested in, Sample is subset of population.',
-'./images/hint1_1.png', 
+'./images/hint1_1.PNG', 
 'We have to find out the sample variance before calculate the standard deviation.'];
 const hint2 = "Using the t-statistic value and degree of freedom, refer to T-distribution table to find the probability where the table column represents the df and the table values represents t-statistic.";
 const hint3 = ["./images/hint3_1", "./images/hint3_2"];

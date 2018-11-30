@@ -88,7 +88,7 @@ session_start();
 						<tr>
 							<td>
 								<p>The population parameter formula given by:</p>
-								<img src='./images/formula1.png' width='70%' height='55%'>
+								<img src='./images/formula1.PNG' width='70%' height='55%'>
 								<p>
 									Population parameter in Statistics is the set of all the values of a quantity of interest. 
 									A population parameter is a number that summarizes an attribute of the population.
@@ -98,7 +98,7 @@ session_start();
 							</td>
 							<td>
 								<p>The sample distribution formula given by: </p>
-								<img src='./images/img3.png' width='70%' height='55%'>
+								<img src='./images/img3.PNG' width='70%' height='55%'>
 							</td>
 						</tr>
 					</table>
